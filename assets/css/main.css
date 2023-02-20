@@ -320,6 +320,14 @@ h1 {
 	letter-spacing: 0.5rem;
 }
 
+#main #work ul li span.skill_hd {
+	color: rgb(189, 31, 97);
+}
+
+#main #contact div span.cont_val {
+	color: rgb(189, 31, 97);
+}
+
 h2 {
 	font-size: 1.5rem;
 	line-height: 1.4;
@@ -1038,6 +1046,22 @@ ul.icons li a {
 	width: 2.25rem;
 }
 
+ul.icons li a.fa-linkedin {
+	color: #0072b1;
+}
+
+ul.icons li a.fa-github {
+	color: #f5f5f5;
+}
+
+ul.icons li a.fa-instagram {
+	color: #d62976;
+}
+
+ul.icons li a.fa-twitter {
+	color: #00ACEE;
+}
+
 ul.icons li a:hover {
 	background-color: rgba(255, 255, 255, 0.075);
 }
@@ -1278,7 +1302,7 @@ button {
 	-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 	-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 	transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-	background-image: url("../../images/bg.jpg");
+	background-image: url("../../images/BackgroundImage.png");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1410,16 +1434,15 @@ body.is-preload #bg:before {
 	display: none;
 }
 
-#header .logo {
-	width: 5.5rem;
-	height: 5.5rem;
-	line-height: 5.5rem;
-	border: solid 1px #ffffff;
-	border-radius: 100%;
+#header .image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-#header .logo .icon:before {
-	font-size: 2rem;
+#header .image img {
+	width: 200px;
+	height: 250px;
 }
 
 #header .content {
